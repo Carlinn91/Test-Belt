@@ -1,5 +1,8 @@
 package DAO;
 
+    /** 
+     * Data Acess Objects, Objeto de Acesso a Dados.
+ */
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
@@ -7,6 +10,10 @@ import Entidades.usuarios;
 import conexao.conexao;
 
 public class usuarioDAO {
+
+    /**     
+     * Extra - Criação de Método de inserção de Dados
+ */
     
     public void cadastrarDescricao(usuarios usuarios){
 

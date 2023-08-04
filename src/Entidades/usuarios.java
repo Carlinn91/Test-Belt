@@ -1,9 +1,17 @@
 package Entidades;
 
+/** 
+     * Pasta Entidades que contem usuarios, que contém todos os atributos do bd, C1_ codigo e C2_descrição
+ */
+
 public class usuarios {
 
     private int c1_codigo;
     private String c2_descricao;
+
+    /** 
+     * Encapsulando os usuarios, get e set
+ */
 
     public int getC1_codigo() {
         return c1_codigo;
